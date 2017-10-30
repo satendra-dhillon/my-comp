@@ -28,7 +28,7 @@ gem 'high_voltage', '~> 3.0.0'
 
 
 gem "therubyracer"
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'less-rails', '~> 3.0.0' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
@@ -37,6 +37,7 @@ gem "twitter-bootstrap-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# gem 'sprockets', '3.6.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

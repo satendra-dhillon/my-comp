@@ -68,6 +68,7 @@ GEM
     ffi (1.9.18)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    grease (0.3.1)
     high_voltage (3.0.0)
     i18n (0.9.0)
       concurrent-ruby (~> 1.0)
@@ -76,8 +77,9 @@ GEM
       multi_json (>= 1.2)
     less (2.6.0)
       commonjs (~> 0.2.7)
-    less-rails (2.8.0)
+    less-rails (3.0.0)
       actionpack (>= 4.0)
+      grease
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
@@ -102,7 +104,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    pg (0.18.1)
+    pg (0.21.0)
     public_suffix (3.0.0)
     puma (3.10.0)
     rack (2.0.3)
@@ -143,7 +145,7 @@ GEM
     ref (2.0.0)
     ruby_dep (1.5.0)
     rubyzip (1.2.1)
-    sass (3.5.2)
+    sass (3.5.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -179,12 +181,12 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.3)
-    twitter-bootstrap-rails (4.0.0)
-      actionpack (~> 5.0, >= 5.0.1)
-      execjs (~> 2.7)
-      less-rails (~> 2.8, >= 2.8.0)
-      railties (~> 5.0, >= 5.0.1)
-    tzinfo (1.2.3)
+    twitter-bootstrap-rails (3.2.2)
+      actionpack (>= 3.1)
+      execjs (>= 2.2.2, >= 2.2)
+      less-rails (>= 2.5.0)
+      railties (>= 3.1)
+    tzinfo (1.2.4)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
@@ -208,7 +210,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   high_voltage (~> 3.0.0)
   jbuilder (~> 2.5)
-  less-rails
+  less-rails (~> 3.0.0)
   listen (>= 3.0.5, < 3.2)
   pg
   puma (~> 3.7)
@@ -227,4 +229,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.0.pre.3
