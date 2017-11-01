@@ -37,12 +37,12 @@
 		        <li class="nav-item">
 		          <%= link_to 'INDUSTRIES', page_path('industry-focus'), class: "nav-link" %>
 		        </li>
-		       	<li class="nav-item">
-		          <%= link_to 'PROCESS', page_path('our-process'), class: "nav-link" %>
+		       	<!-- <li class="nav-item">
+		          <%#= link_to 'PROCESS', page_path('our-process'), class: "nav-link" %>
 		        </li>
 		        <li class="nav-item">
-		          <%= link_to 'PORTFOLIO', page_path('portfolio'), class: "nav-link" %>
-		        </li>
+		          <%#= link_to 'PORTFOLIO', page_path('portfolio'), class: "nav-link" %>
+		        </li> -->
 		        <li class="nav-item">
 		          <%= link_to 'CONTACT', page_path('contact'), class: "nav-link" %>
 		        </li>
@@ -53,6 +53,46 @@
 
   
     <%= yield %>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-white">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h3>Our Location</h3>
+              Test Location, noida, Sector-62.
+              Uttar Pradesh, 201301
+            </div>
+            <div class="col-sm-3">
+              <h3>Expertise</h3>
+                <ul>
+                  <li>
+                    Custom Web Development
+                  </li>
+                  <li>
+                    Enterprise Applications
+                  </li>
+                  <li>
+                    Client Setifaction
+                  </li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+              <h3>Technologies</h3>
+              <ul>
+                <li>
+                  Ruby on Rails-(ROR)
+                </li>
+                <li>
+                  PHP
+                </li>
+                <li>
+                  Paython
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </nav>
 
   </body>
 </html>
